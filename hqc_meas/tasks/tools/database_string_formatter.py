@@ -1,10 +1,10 @@
 """
 """
 import textwrap
-from math import atan2
-from cmath import (cos, sin, tan, acos, asin, atan,
-                exp, log, cosh, sinh, tanh, phase)
+from math import (cos, sin, tan, acos, asin, atan,
+                exp, log, cosh, sinh, tanh, atan2, sqrt)
 from cmath import pi as Pi
+import cmath
 import numpy as np
 
 COMPLETER_TOOLTIP = textwrap.fill("""In this field you can enter a text and
